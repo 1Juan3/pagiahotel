@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,100&family=Montserrat:ital,wght@0,200;1,400&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 95vw;
+}
+
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+hr{
+    display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0;
+
+
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu{
+    height: 80px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+
+.menu a{
+    margin-left: 63px;
+}
+
+.menu a:hover{
+    color: rgba(109, 106, 106, 0.829);
+}
+
+.parte1{
+    display: flex;
+    gap: 30px;
+   
+}
+.imagen{
+    margin-top: 30px;
+    background-image: url('../images/paisaje.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 660px;
+    width: 966px;
+}
+
+
+.fixed{
+    background-color: white;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    animation:smoothScroll  forwards;
+  }
+    @keyframes smoothScroll{
+    0%{
+    transform:translateY(-140px);
+}
+    100%{
+        transform:translateY(0px);
+}
+}
+h3{
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    line-height: 1;
+    font-size: 36px;
+}
+.formularios{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 660px;
+    background-color:#e3e3e3;
+}
+.todo{
+    width: 352px;
+    height: 484px;
+    background-color:#e3e3e3;
+}
+
+label{
+    display: block;
+    width: 94%;
+    border:none;
+    background-color: white;
+    padding: 8px 10px;
+    position: relative;
+
+}
+
+
+label input{
+    border:none;
+    background: transparent;
+    outline: none;
+    display: block;
+    width: 100%;
+}
+
+
+label span {
+    color: silver;
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    transition: .5s;
+}
+
+
+label.focus{
+    border-color: withe;
+}
+
+
+
+label span.top {
+    color:transparent;
+}
+
+.indate{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.check{
+margin-left: 100px;
+}
+
+.selects{
+    display: flex;
+}
+
+select{
+    padding: 10px 122px 10px 10px;
+    border: none;
+    outline: none;
+}
+
+.select1{
+    margin-right: 20px;
+}
+
+button{
+    margin-top: 40px;
+    padding: 15px;
+    width: 98%;
+    text-decoration: none;
+    border: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #8f859e;
+    cursor: pointer;
+    
+}
+
+button:hover{
+    background-color: #8f859e31;
+    transition: .5s;
+}
+
+p{
+    margin: 20px 0 10px 0px ;
+}
+.parte2{
+    display: flex;
+}
+
+.paisaje2{
+    margin-top: 30px;
+    background-image: url('../images/paisaje1.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 815px;
+    height: 419px;
+    
+}
+
+.cuadro-principal{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    width: 521px;
+    height: 419px;
+    background-color: #8f859e;
+}
+
+.cuadro-secundario{
+    width: 420px;
+    height: 273;
+}
+
+.boton2{
+    margin-top: 40px;
+    padding: 15px;
+    width: 40%;
+    text-decoration: none;
+    border: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    border:solid 2px #a0a0a0;
+    background-color: #8f859e;
+    cursor: pointer
+
+}
+.boton2:hover{
+    background-color: white;
+    color: black;
+    transition: all .5s;
+
+}
+
+h2{
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    line-height: 1;
+    font-size: 60px;
+    color: white;
+}
+
+.principal1{
+    width: 1450px;
+    height: 730px;
+    background-color: rgb(141, 141, 141);
+}
+.parte3{
+    display: flex;
+    justify-content: center;
+    display: flex;
+}
+
+.parrafos{
+    width: 60%;
+}
+ 
+
+
